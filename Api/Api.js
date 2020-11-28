@@ -20,14 +20,6 @@ try {
     console.log(switchbtn.value)
 
 
-   /* let matches = info.filter(movies => {
-        const regex = new RegExp(`^${movietext}`,'gi');
-        return movies.name.match(regex) || movies.abbr.match(regex);
-    });
-
-    console.log(matches)
-
-*/
  let htmlInsert = "";
     for(let i = 0; i < filmer.length;i++){
            
@@ -89,52 +81,3 @@ movieSearch(movie.value));
 
 
 
-/*let links = document.querySelectorAll('.deepSearch');
-for (let link of links) {
-    link.addEventListener('click', alert);
-}
-
-function alert(){
-    alert('here')
-}
-
-
-*/
-/*async function fetchJSON() {
-
-   
-        let parameter = this.id;
-        console.log(parameter)
-        let response = await fetch('http://www.omdbapi.com/?apikey=5587ccd4&s='+sökning.value);
-        let info = await response.json(); 
-
-       
-       
-       
-       
-       
-        
-       for(let i = 0; i < filmer.length;i++){
-           
-
-        console.log(filmer[i].Title)
-        movieplace.innerHTML +=
-        '<div id = "delar">' +
-        '<h2>'+ filmer[i].Title+'</h2>' + 
-        '<i>' + filmer[i].Year + '</i>' +
-        '<img src="'+filmer[i].Poster+'">' +
-        '</div>'
-       }
-           
-         
-        
-    
-}
-submit.addEventListener('click',fetchJSON);{
-    
-}
-noll.addEventListener('click',remdel);{
-    delar.remove
-}
-
-*/
