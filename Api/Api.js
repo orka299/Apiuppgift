@@ -54,12 +54,11 @@ function swap(){
 if(switchbtn.value === 'movie'){
     switchbtn.value = "series"
     switchbtn.innerHTML ='Series'
-    movie.value = null;
-    
-    }else{
+    movieSearch();
+     }else{
     switchbtn.value = 'movie'
     switchbtn.innerHTML ='Movies'
-    movie.value = null;
+    movieSearch();
     
     
 };
