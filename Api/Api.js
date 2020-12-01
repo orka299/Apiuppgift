@@ -28,8 +28,9 @@ try {
         htmlInsert +=
         '<div id = "delar">' +
         '<h2 class ="deepSearch">'+ filmer[i].Title+'</h2>' + 
-        '<i>' + filmer[i].Year + '</i>' +
         '<img src="'+filmer[i].Poster+'">' +
+        '<br>' +
+        '<i>' + filmer[i].Year + '</i>' +
         '</div>'
 
         movieplace.innerHTML = htmlInsert;

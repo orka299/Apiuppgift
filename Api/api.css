@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+}
+
+
+.header {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 200px;
+        border: 2px solid black;
+}
+#movieplace{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr; 
+}
+
+#delar{
+    border: solid black 2px;
+}
+
+i,h2,h1{
+    text-align: center;
+}
+
+.searchbars{
+    margin-left: 630px;
+}
+.middle-btn,.middle-input{
+    height: 40px;
+    width: 100px;
+}
+.middle-btn{
+    width: 70px;
+}
+
+i{
+ padding: 50px;
+ margin-left: 150px;
+ padding-top:50px;
+ 
+}
+img{
+    margin-left: 80px;
+}
