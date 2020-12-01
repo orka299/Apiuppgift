@@ -24,7 +24,7 @@ try {
     for(let i = 0; i < filmer.length;i++){
            
         
-        console.log(filmer[i].Title)
+     console.log(filmer[i].Title)
         htmlInsert +=
         '<div id = "delar">' +
         '<h2 class ="deepSearch">'+ filmer[i].Title+'</h2>' + 
